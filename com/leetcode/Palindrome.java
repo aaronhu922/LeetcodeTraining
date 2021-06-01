@@ -3,7 +3,7 @@
  */
 package com.leetcode;
 
-import com.leetcode.twolinkedlist.ListNode;
+import com.leetcode.Twolinkedlist.ListNode;
 
 /**
  * @author aahu

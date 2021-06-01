@@ -5,7 +5,7 @@ package com.leetcode;
 
 import java.util.Stack;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 /**
  * @author aahu
@@ -83,7 +83,7 @@ public class DecodeStrings {
   public static void main(String[] args) {
 
 System.out.println(new DecodeStrings().decodeString("2[abc]3[cd]ef"));
-Assert.assertEquals("", "");
+//         Assert.assertEquals("", "");
 
   }
 
