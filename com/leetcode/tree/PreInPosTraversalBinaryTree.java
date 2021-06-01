@@ -2,7 +2,7 @@ package com.leetcode.tree;
 
 import java.util.*;
 
-public class PreInPosTraversalBinaryTress {
+public class PreInPosTraversalBinaryTree {
 
     public static void preOrderTraversalUnRecur(Node head) {
         System.out.println("pre-order");
@@ -171,12 +171,12 @@ public class PreInPosTraversalBinaryTress {
         bt.add(7);
         bt.add(9);
 
-        PreInPosTraversalBinaryTress.inOrderTraversalUnRecur(bt.root);
-        PreInPosTraversalBinaryTress.widthTraversal(bt.root);
-        int width = PreInPosTraversalBinaryTress.getMaxWidthOfTree(bt.root);
+        PreInPosTraversalBinaryTree.inOrderTraversalUnRecur(bt.root);
+        PreInPosTraversalBinaryTree.widthTraversal(bt.root);
+        int width = PreInPosTraversalBinaryTree.getMaxWidthOfTree(bt.root);
         System.out.println("width is: " + width);
 
-        int width1 = PreInPosTraversalBinaryTress.getMaxWidthOfTreeNoMap(bt.root);
+        int width1 = PreInPosTraversalBinaryTree.getMaxWidthOfTreeNoMap(bt.root);
         System.out.println("width1 is: " + width1);
 
     }
